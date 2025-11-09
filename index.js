@@ -13,6 +13,7 @@
  */
 
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion } = require('@adiwajshing/baileys');
+const require('./config');
 const figlet = require('figlet');
 const chalk = require('chalk');
 const qrcode = require('qrcode-terminal');

@@ -1,0 +1,39 @@
+# === Archivos sensibles (no subir jamás) ===
+auth_info.json
+session.data.json
+credentials.json
+creds.json
+*.session
+*.data.json
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Archivos temporales ===
+.DS_Store
+Thumbs.db
+.env
+*.log
+*.tmp
+
+# === Archivos del sistema o editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# === Backups ===
+backup/
+*.old
+*.orig
+
+# === Archivos generados del bot ===
+qrcode.png
+temp/
+cache/
+plugins_cache/
